@@ -3,6 +3,7 @@ const app = express();
 const userRoutes = require('./routes/user.routes');
 const swaggerUi = require('swagger-ui-express');
 const swaggerSpec = require('./swagger');
+const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 
@@ -22,3 +23,9 @@ app.use((err, req, res, next) => {
 });
 
 module.exports = app;
+
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+}
