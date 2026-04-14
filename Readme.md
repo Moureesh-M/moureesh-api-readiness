@@ -2,11 +2,11 @@
 
 ## Live URL
 
-https://sanvisri-api-readiness.onrender.com
+https://moureesh-api-readiness.onrender.com
 
 ## Swagger Docs
 
-https://sanvisri-api-readiness.onrender.com/api-docs
+https://moureesh-api-readiness.onrender.com/api-docs
 
 ## Environment Variables
 
